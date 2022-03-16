@@ -1,0 +1,396 @@
+body {
+    margin: 0;
+    font-family: "Lucida Grande";
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  .container {
+    width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+  }
+
+  header {
+    height: 100px;
+    width: 100%;
+    background-color: rgba(255, 204, 204,0.5);
+    position: fixed;
+    top: 0;
+    z-index: 10;
+  }
+
+  .logo {
+    width: 124px;
+    margin-top: 20px;
+  }
+
+.header-left {
+    float: left;
+  }
+
+.header-right {
+  float: right;
+  margin:25px;
+  }
+  
+.hr1 {
+  float: right;
+  line-height: 30px;
+  padding: 2px;
+  margin: 10px;    
+  border-radius :100px;
+  background-color:white;
+  display: block;
+}
+ 
+.hr1 :hover {
+  line-height: 30px;
+  padding: 1px;
+  margin: 10px;    
+  border-radius :100px;
+  color:white;
+  background-color:rgba(240, 146, 177, 0.5);
+  transition: all 0.5s;
+  }
+
+.hr1 a{
+  line-height: 30px;
+  padding: 20px;
+  color:rgba(255, 184, 184,1.0);
+}
+
+.hr2 {
+  float: right;
+  line-height: 30px;
+  padding: 1px;
+  margin: 10px;    
+  border-radius :100px;
+  background-color:white;
+}
+
+.hr2 :hover {
+  line-height: 30px;
+  padding: 1px;
+  margin: 10px;    
+  border-radius :100px;
+  color:white;
+  background-color:rgba(240, 146, 177, 0.5);
+  transition: all 0.5s;
+  }
+
+.hr2 a{
+  line-height: 30px;
+  padding: 20px;
+  color:rgba(255, 184, 184,1.0);
+}
+
+.hr3 {
+  float: right;
+  line-height: 30px;
+  padding: 1px;
+  margin: 10px;    
+  border-radius :100px;
+  background-color:white;
+}
+
+.hr3 :hover {
+  line-height: 30px;
+  padding: 1px;
+  margin: 10px;    
+  border-radius :100px;
+  color:white;
+  background-color:rgba(240, 146, 177, 0.5);
+  transition: all 0.5s;
+  }
+
+.hr3 a{
+  line-height: 30px;
+  padding: 20px;
+  color:rgba(255, 184, 184,1.0);
+}
+
+.hr4 {
+  float: right;
+  line-height: 30px;
+  padding: 1px;
+  margin: 10px;    
+  border-radius :100px;
+  background-color:white;
+}
+
+.hr4 :hover {
+  line-height: 30px;
+  padding: 1px;
+  margin: 10px;    
+  border-radius :100px;
+  color:white;
+  background-color:rgba(240, 146, 177, 0.5);
+  transition: all 0.5s;
+  }
+
+.hr4 a{
+  line-height: 30px;
+  padding: 20px;
+  color:rgba(255, 184, 184,1.0);
+}
+
+.hr5 {
+  float: right;
+  line-height: 30px;
+  padding: 1px;
+  margin: 10px;    
+  border-radius :100px;
+  background-color:white;
+}
+
+.hr5 :hover {
+  line-height: 30px;
+  padding: 1px;
+  margin: 10px;    
+  border-radius :100px;
+  color:white;
+  background-color:rgba(240, 146, 177, 0.5);
+  transition: all 0.5s;
+  }
+
+.hr5 a{
+  line-height: 30px;
+  padding: 20px;
+  color:rgba(255, 184, 184,1.0);
+}
+
+.hr6 {
+  float: right;
+  line-height: 30px;
+  padding: 1px;
+  margin: 10px;    
+  border-radius :100px;
+  background-color:white;
+}
+
+.hr6 :hover {
+  line-height: 30px;
+  padding: 1px;
+  margin: 10px;    
+  border-radius :100px;
+  color:white;
+  background-color:rgba(240, 146, 177, 0.5);
+  transition: all 0.5s;
+  }
+
+.hr6 a{
+  line-height: 30px;
+  padding: 20px;
+  color:rgba(255, 184, 184,1.0);
+}
+
+.hr7 {
+  float: right;
+  line-height: 30px;
+  padding: 1px;
+  margin: 10px;    
+  border-radius :100px;
+  background-color:white;
+}
+
+.hr7 :hover {
+  line-height: 30px;
+  padding: 1px;
+  margin: 10px;    
+  border-radius :100px;
+  color:white;
+  background-color:rgba(240, 146, 177, 0.5);
+  transition: all 0.5s;
+  }
+
+.hr7 a{
+  line-height: 30px;
+  padding: 20px;
+  color:rgba(255, 184, 184,1.0);
+}
+
+
+footer {
+  height: 450px;
+  width: 100%;
+  position: fixed;
+  background-color:rgba(116, 185, 255,0.5);
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+}
+
+.footer-left{
+  float:left;
+  margin-top :50px;
+}
+
+.footer-left p1 {
+  color: white;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.logo2 {
+  float:left;
+  width: 100px;
+}
+
+.footer-right{
+  float:right;
+}
+
+.fr1 h3 {
+  float:right;
+  font-family: 'inherit';
+  font-weight: 800;
+  font-size: 30px;
+  color: #364f6b;
+  width:100%;
+  line-height: 50px;
+}
+
+
+.fr2 h3 {
+  float:right;
+  font-family: 'inherit';
+  font-weight: 800;
+  font-size: 30px;
+  color: #364f6b;
+  width: 100%;
+  line-height: 50px;
+}
+
+.wrapper {
+  padding: 180px 0 100px 0;
+  background-image: url(https://lh3.googleusercontent.com/BYfud8xb_2EWnfBCvVjdxGBj86iWVfgtuaDCmj8t8o2MPGPKclybfQA1iONtMYvKY9LtIfy_48mfQHGuje9OQwBQlxVSOWVU7m8Cgy3DTk6_d8RXZhkJ9tnxiX5wQoajYqmf2tuFAA=w2400);
+  background-size: cover;
+  color: #364f6b;
+  text-align: center;
+}
+
+section {
+  display: flex;
+  margin-bottom: 50px;  
+}
+
+.p1{
+  margin:100px 100px 0px 100px;
+  width: 500px;
+}
+
+.aboutus {
+  margin:10px 50px 50px 10px;
+}
+
+.aboutus .deskripsi {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'Hubballi';
+  color: #000000;
+}
+
+.aboutus h2 {
+  font-family: 'Hubballi';
+  font-weight: 800;
+  font-size: 45px;
+  color: #364f6b;
+  width: 100%;
+  line-height: 50px;
+}
+
+.aboutus p{
+  color: #364f6b;
+}
+a.tbl-biru {
+  background: #3f72af;
+  border-radius: 20px;
+  margin-top: 20px;
+  padding: 15px 20px 15px 20px;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+a.tbl-biru:hover {
+  background: #fc5185;
+  text-decoration: none;
+}
+
+a.tbl-pink {
+  background: #fc5185;
+  border-radius: 20px;
+  margin-top: 20px;
+  padding: 15px 20px 15px 20px;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+a.tbl-pink:hover {
+  background: #3f72af;
+  text-decoration: none;
+}
+
+p {
+  margin: 10px 0px 10px 0px;
+  padding: 10px 0px 10px 0px;
+}
+
+.tengah {
+  text-align: center;
+  width: 100%;
+}
+
+.customers {
+  width: 100%;
+  position: relative;
+  display: flex;
+  color: #364f6b;
+  flex-wrap: wrap;
+}
+
+.kartu-customers {
+  width: 20%;
+  margin: 0 auto;
+}
+
+.kartu-customers img {
+  width: 80%;
+  border-radius: 50%;
+}
+
+.kartu-customers p {
+  font-family: 'comic sans ms';
+  font-weight: 800;
+  font-size: 25px;
+  text-align: center;
+  color: #364f6b;
+}
+
+.partner-list {
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.kartu-partner {
+  width: 20%;
+  margin: 0 auto;
+}
+
+.kartu-partner img {
+  width: 150px;
+  border-radius: 50%;
+}
+
+#contact {
+  background: #dedede;
+  padding:50px 0px 50px 0px;
+}
+
